@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: 1em/1.4 Arial;
+}
+nav {
+    background-color: black;
+    border-bottom: #C4C4C4 1px solid;
+    position: relative;
+    z-index: 3;
+}
+.navigation {
+    max-width: 1920px;
+    margin: 0px 64px 0px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 76px;
+
+}
+.menu {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navMenu, .navButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navButton {
+    text-decoration: none;
+    width: 185px;
+    height: 37px;
+    background: linear-gradient(286.69deg, #5C9FF9 -16.34%, #2869CA 97.2%), #C4C4C4;
+    border-radius: 3px;
+}
+
+.navMenu p, .navButton p {
+    margin: 0;
+    font-family: 'Armata', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main {
+    background-color: black;
+    height: 764px;
+    z-index: 1;
+    /*display: flex;*/
+    /*align-items: center;*/
+}
+
+.cookingGays {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+.laptop {
+    position: absolute;
+    top: 183px;
+    right: 333px;
+    z-index: 3;
+}
+.headline {
+    display: inline-block;
+    position: absolute;
+    right: 1044px;
+    top: 282px;
+    z-index: 4;
+    height: fit-content;
+    max-width: 467px;
+    float: left;
+}
+
+.headline p {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    float: left;
+    color: white;
+}
+
+.task h1 {
+    font-size: 45px;
+    line-height: 74px;
+    font-family: 'Anton', sans-serif;
+}
+.task p {
+    font-size: 18px;
+    line-height: 34px;
+    font-family: 'Armata', sans-serif;
+    max-width: 780px;
+}
+.decision h1 {
+    font-size: 45px;
+    line-height: 74px;
+    font-family: 'Anton', sans-serif;
+}
+.decision p {
+    font-size: 18px;
+    line-height: 34px;
+    font-family: 'Armata', sans-serif;
+    max-width: 780px;
+}
+.conceptDesign h1 {
+    font-size: 45px;
+    line-height: 74px;
+    font-family: 'Anton', sans-serif;
+}
