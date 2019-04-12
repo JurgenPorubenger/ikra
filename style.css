@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Graphik LCG";
+    src: url("./fonts/Graphik-Medium-Web.woff");
+    font-weight:normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -41,8 +48,7 @@ nav {
 
 .navMenu p, .navButton p {
     margin: 0;
-    font-family: 'Armata', sans-serif;
-    font-weight: bold;
+    font-family: 'Graphik LCG', sans-serif;
     font-size: 14px;
     color: white;
 }
@@ -85,7 +91,7 @@ nav {
 
 .headline p {
     display: inline-block;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Graphik LCG', sans-serif;
     font-size: 18px;
     line-height: 34px;
     float: left;
@@ -95,27 +101,115 @@ nav {
 .task h1 {
     font-size: 45px;
     line-height: 74px;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Graphik LCG', sans-serif;
 }
 .task p {
     font-size: 18px;
     line-height: 34px;
-    font-family: 'Armata', sans-serif;
-    max-width: 780px;
+    font-family: 'Graphik LCG', sans-serif;
+    color: #333333;
+}
+.decision {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 .decision h1 {
     font-size: 45px;
     line-height: 74px;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Graphik LCG', sans-serif;
 }
+
 .decision p {
     font-size: 18px;
     line-height: 34px;
-    font-family: 'Armata', sans-serif;
-    max-width: 780px;
+    font-family: 'Graphik LCG', sans-serif;
+    color: #333333;
+    padding-bottom: 40px;
 }
+
 .conceptDesign h1 {
     font-size: 45px;
     line-height: 74px;
-    font-family: 'Anton', sans-serif;
+    font-family: "Graphik LCG", bold, sans-serif;
+}
+
+.head_redEgg {
+    display: flex;
+    justify-content: space-between;
+    /*flex-wrap: wrap;*/
+}
+
+
+.nav_rightBorder {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_rightBorder li {
+    position: relative;
+    display: block;
+    text-align: right;
+    font-family: 'Graphik LCG', sans-serif;
+    color: #333333;
+    font-size: 32px;
+    line-height: 52px;
+}
+
+.nav_rightBorder li:after {
+    position: absolute;
+    top:-10px;
+    right:0;
+    width:10%;
+    border-top:5px solid #FD3300;
+    content:"";
+}
+.redEgg {
+    background-image: url("img/Ellipse.png");
+    background-repeat: no-repeat;
+    background-position: ;
+        background-size: contain;
+
+}
+.bodyEgg {
+    margin-top: 45px;
+    display: flex;
+    justify-content: flex-start;
+}
+.footerEgg {
+    margin-top: 45px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ikraScreen5 {
+    margin-left: 5%;
+}
+
+.booking_ticket h1 {
+    font-size: 45px;
+    line-height: 74px;
+    font-family: 'Graphik LCG', sans-serif;
+}
+.booking_ticket p {
+    font-family: Graphik LCG, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #333333;
+}
+
+.nav_beforeTable {
+    margin-top: 173px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.imgGears, .imgTouch, .imgDashboard {
+    display: block;
+    margin: 0 auto;
 }
